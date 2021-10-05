@@ -16,6 +16,7 @@
 		0C67468326FDF77700DCA126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C67468126FDF77700DCA126 /* LaunchScreen.storyboard */; };
 		0C67468E26FDF77700DCA126 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67468D26FDF77700DCA126 /* SecondKadaiAppTests.swift */; };
 		0C67469926FDF77700DCA126 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67469826FDF77700DCA126 /* SecondKadaiAppUITests.swift */; };
+		0C6746A726FDF8CD00DCA126 /* HelloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6746A626FDF8CD00DCA126 /* HelloController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0C67469426FDF77700DCA126 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C67469826FDF77700DCA126 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		0C67469A26FDF77700DCA126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6746A626FDF8CD00DCA126 /* HelloController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				0C67467326FDF77400DCA126 /* AppDelegate.swift */,
 				0C67467526FDF77400DCA126 /* SceneDelegate.swift */,
 				0C67467726FDF77400DCA126 /* ViewController.swift */,
+				0C6746A626FDF8CD00DCA126 /* HelloController.swift */,
 				0C67467926FDF77400DCA126 /* Main.storyboard */,
 				0C67467F26FDF77700DCA126 /* Assets.xcassets */,
 				0C67468126FDF77700DCA126 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				0C67467826FDF77400DCA126 /* ViewController.swift in Sources */,
 				0C67467426FDF77400DCA126 /* AppDelegate.swift in Sources */,
 				0C67467E26FDF77400DCA126 /* SecondKadaiApp.xcdatamodeld in Sources */,
+				0C6746A726FDF8CD00DCA126 /* HelloController.swift in Sources */,
 				0C67467626FDF77400DCA126 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

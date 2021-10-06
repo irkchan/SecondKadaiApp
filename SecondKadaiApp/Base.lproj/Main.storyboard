@@ -44,7 +44,6 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="EWo-K8-PLJ"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="Lm6-ca-Zkb"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -74,16 +73,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="JaR-bC-sOn">
-                                <rect key="frame" x="57" y="371" width="300" height="100"/>
+                                <rect key="frame" x="57" y="371" width="300" height="100.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zvw-f2-Na3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zvw-f2-Na3">
                                         <rect key="frame" x="129.5" y="0.0" width="41.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R91-fv-SjC">
-                                        <rect key="frame" x="134.5" y="70.5" width="31" height="29.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R91-fv-SjC">
+                                        <rect key="frame" x="134.5" y="70.5" width="31" height="30"/>
                                         <state key="normal" title="戻る"/>
                                         <connections>
                                             <segue destination="yEU-90-AVD" kind="unwind" unwindAction="unwindPrev:" id="hGb-Bh-vqi"/>
@@ -92,7 +91,6 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="FJh-F9-wPO"/>
-                                    <constraint firstAttribute="height" constant="100" id="WbW-LT-e4Z"/>
                                 </constraints>
                             </stackView>
                         </subviews>

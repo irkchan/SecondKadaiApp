@@ -18,7 +18,7 @@ class HelloController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         NameLabel.text = "こんにちは \(moji) さん"
+         NameLabel.text = "こんにちは、 \(moji) さん"
         // Do any additional setup after loading the view.
     }
     
